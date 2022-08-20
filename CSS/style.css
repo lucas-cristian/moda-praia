@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:wght@300&family=Poppins&display=swap');
+
+/* Zerando CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header {
+    padding: 16px 0;
+    background-color: #0146ae;
+    color: #fff;
+
+}
+
+/* Cabeçalho Menu */
+
+.container {
+    max-width: 1280px;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+
+body, input, textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+header,
+header h1,
+form button {
+    font-family: 'DynaPuff', cursive;
+    font-weight: normal;
+}
+
+section h2,
+section h3 {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header .container,
+section .container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color :#fff;
+    font-size: 18px;
+
+}
+
+header nav li a {
+    color : #fff;
+    text-decoration: none;
+
+}
+
+/* Main Principal Sobre Nois */
+
+.divisao {
+    background-color: #fff;
+ 
+}
+
+.blands-list img {
+    height: 24px;
+}
+
+.blands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #0146ae;
+}
+
+section h2 {
+    margin-top: 10px;
+    padding: 8px;
+}
+
+section p {
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.store-front {
+    max-height: 600px ;
+    margin-bottom: -28px;
+    
+}
+
+
+
+/* Main Principal Contato */
+
+main {
+    background-color: #D99F59;
+}
+
+.social-links img {
+    height: 26px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+#contacts .container {
+    display: block;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+section h3 {
+    margin-bottom: 16px;
+
+}
+
+form button {
+    background-color: #0146ae;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(66, 66, 252, 0.938);
+}
+
+input:focus textarea:focus {
+    outline-color:#021a3f;  
+    
+}
+
+/* Footer Rodapé */
+
+footer {
+    background-color:#0146ae;
+    color: #fff;
+    padding: 16px 0;
+}
