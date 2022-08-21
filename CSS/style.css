@@ -43,7 +43,8 @@ section h3 {
 }
 
 header .container,
-section .container {
+section .container,
+footer .container {
     display: flex; 
     align-items: center;
     justify-content: space-between;
@@ -109,20 +110,7 @@ section p {
 /* Main Principal Contato */
 
 main {
-    background-color: #D99F59;
-}
-
-.social-links img {
-    height: 26px;
-}
-
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a {
-    text-decoration: none;
+    background-color: #d99f595e;
 }
 
 
@@ -141,13 +129,18 @@ form textarea,
 form button {
     display: block;
     width: 320px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     padding: 8px;
 }
 
 form textarea {
     resize: none;
     height: 180px;
+
+}
+
+form {
+    margin-bottom: 120px;
 }
 
 section h2 {
@@ -177,7 +170,27 @@ input:focus textarea:focus {
 /* Footer Rodapé */
 
 footer {
+    display: flex;
     background-color:#0146ae;
     color: #fff;
     padding: 16px 0;
+   
+}
+
+
+.social-links img {
+    height: 26px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer .container p {
+    font-size: 18px;
 }
